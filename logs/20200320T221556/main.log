@@ -1,0 +1,4 @@
+[2020-03-20 22:15:58.237] [main] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/sispoof/Desktop/SpyNet/alert/User'
+[2020-03-20 22:16:00.045] [main] [info] update#setState idle
+[2020-03-20 22:16:30.048] [main] [info] update#setState checking for updates
+[2020-03-20 22:16:30.267] [main] [info] update#setState available for download

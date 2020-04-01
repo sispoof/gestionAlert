@@ -1,0 +1,7 @@
+body {
+    background: #eee;
+  }
+
+ .navbar .container .collapse .navbar-nav .nav-item :hover {
+   color:#111;
+ }
