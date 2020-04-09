@@ -6,7 +6,7 @@ use App\departement;
 use App\alerte;
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class WelcomeController extends Controller
 {
     //
     function index()
@@ -28,6 +28,6 @@ $nbad=alerte::join('machines','machines.id','=','alertes.id_machine')
 
    
     $nball = machine::count('*');
-    return view('home')->with('dep',$dep)->with('nball',$nball)->with('nbmd',$nbmd)->with('nbad',$nbad);
+    return view('welcome')->with('dep',$dep)->with('nball',$nball)->with('nbmd',$nbmd)->with('nbad',$nbad);
     }
 }

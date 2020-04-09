@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','HomeController@index');
+Route::get('/','WelcomeController@index');
 
 Route::resource('departements','DepartementController');
 Route::resource('salles','SalleController');
